@@ -1,0 +1,43 @@
+# Cabal build artifacts
+dist/
+dist-newstyle/
+cabal.project.local
+cabal.project.local.*
+cabal.sandbox.config
+*.cabal-sandbox/
+*.ghc.environment.*
+
+# Stack build artifacts
+.stack-work/
+
+# Haskell compiled files
+*.hi
+*.o
+*.dyn_o
+*.dyn_hi
+
+# Executables
+*.exe
+*.out
+
+# Logs and temporary files
+*.log
+*.aux
+*.tmp
+
+# IDE/editor files
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+*.DS_Store
+*.vscode/
+.idea/
+*.iml
+
+# Mac OS files
+.DS_Store
+
+# Windows Thumbs
+Thumbs.db

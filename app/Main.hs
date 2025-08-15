@@ -1,8 +1,6 @@
 module Main where
 
-import qualified MyLib (someFunc)
+import qualified Maple as M
 
 main :: IO ()
-main = do
-  putStrLn "Hello, Haskell!"
-  MyLib.someFunc
+main = M.run

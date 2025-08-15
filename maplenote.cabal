@@ -83,6 +83,7 @@ library
         http-types >= 0.12.4 && < 0.13,
         jose >= 0.10.0 && < 0.11,
         servant >= 0.20.3 && < 0.21,
+        wai >= 3.2.4 && < 3.3,
         servant-blaze >= 0.9.1 && < 0.10,
         servant-server >= 0.20.3 && < 0.21,
         warp >= 3.4.8 && < 3.5,
